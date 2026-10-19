@@ -1,6 +1,6 @@
 volumes:
   ny_taxi_postgres_data:
-    driver: local
+    external: true
   kestra_postgres_data:
     driver: local
   kestra_data:
